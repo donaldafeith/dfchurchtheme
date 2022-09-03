@@ -1,9 +1,23 @@
 /*!
- * Project_Name: Compass Starter
- * Author: Ariona, Rian
- * Email: yans_fied[at]yahoo.com
- * Url: http://www.ariona.net
- */
+Theme Name: DFChurchTheme
+Theme URI: https: //github.com/donaldafeith
+Author: Donalda Feith
+Author URI: https: //github.com/donaldafeith
+Description: Description
+Version: 1.0.0
+Tested up to: 5.7.1
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: dfchurchtheme
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've done with the community.
+DFChurchTheme is based off of Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+*/
 /*=========================================== 
  * Importing CSS Libraries
  *===========================================*/
@@ -295,15 +309,17 @@ ol {
 }
 
 a {
-    text-decoration: none;
-      color: #8f7655;
-      background:transparent;
+  text-decoration: none;
+  color: #8f7655;
+  background: transparent;
 }
+
 a:hover {
   text-decoration: none;
   color: #bf9763;
   background: transparent;
 }
+
 address {
   font-style: normal;
 }
@@ -1760,18 +1776,20 @@ form input.secondary[type="reset"] {
   align-items: center;
   justify-content: center;
 }
+
 .info {
   color: #FFFFFF;
   font-size: 14px;
   font-size: 1em;
 }
-.hero  {
+
+.hero {
   list-style: none;
   *zoom: 1;
-  background-color:#8f7655;
-  width: 100%; 
-  height:300px;
-  display: block; 
+  background-color: #8f7655;
+  width: 100%;
+  height: 300px;
+  display: block;
   z-index: 1;
 }
 
@@ -1908,17 +1926,18 @@ form .hero .slides input[type="reset"]:after {
   text-transform: uppercase;
   color: #544531;
 }
-#news .wp-post-image .attachment-post-thumbnail .size-post-thumbnail .wp-post-image
- {
+
+#news .wp-post-image .attachment-post-thumbnail .size-post-thumbnail .wp-post-image {
   margin-bottom: 20px;
- }
+}
+
 .news {
   text-align: center;
   margin-bottom: 30px;
-    overflow: hidden;
+  overflow: hidden;
 }
 
-.news .news-image .wp-post-image{
+.news .news-image .wp-post-image {
   width: 100%;
   max-width: 100%;
   height: 100%;
@@ -1938,7 +1957,7 @@ form .hero .slides input[type="reset"]:after {
   font-size: 12px;
   font-size: 0.8571428571em;
   font-family: "Novecento Sans", "Raleway", "Noto Sans""Open Sans", sans-serif;
- 
+
 }
 
 .news .date .fa {
@@ -2216,6 +2235,7 @@ ul.bullet li a:hover {
 .contact-form textarea {
   min-height: 150px;
 }
+
 #gridcontainer {
   margin: 20px 0;
   width: 100%;
@@ -2240,22 +2260,25 @@ ul.bullet li a:hover {
 #gridcontainer .postimage {
   margin: 0 0 10px 0;
 }
+
 .col-sm-6 {
   width: 200px;
 }
+
 .front-page-post {
   height: 100px;
 }
+
 .news {
   text-align: center;
   height: 200px;
   margin-bottom: 0;
   overflow: hidden;
 }
-edit-link{
-    text-align: center;
-    height: 200px;
-    margin-bottom: 0;
-    overflow: hidden;
-  }
-  
+
+edit-link {
+  text-align: center;
+  height: 200px;
+  margin-bottom: 0;
+  overflow: hidden;
+}
