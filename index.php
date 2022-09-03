@@ -14,10 +14,14 @@
 
 get_header();
 ?>
+			<main class="main-content">
+				<div class="fullwidth-block">
+					<div class="container">
+						<h2 class="section-title">Recent news</h2>
 
-	<main id="primary" class="site-main">
-
-		<?php
+						<div class="row">
+							<div class="col-md-3 col-sm-6">
+<?php
 		if ( have_posts() ) :
 
 			if ( is_home() && ! is_front_page() ) :
@@ -51,6 +55,12 @@ get_header();
 		?>
 
 	</main><!-- #main -->
+						</div> <!-- .row -->
+					</div> <!-- .container -->
+				</div> <!-- section -->
+
+			</main> <!-- .main-content -->
+
 
 <?php
 get_sidebar();

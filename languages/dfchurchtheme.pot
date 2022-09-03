@@ -105,7 +105,7 @@ msgstr ""
 #. translators: %s: post date.
 #: inc/template-tags.php:30
 msgctxt "post date"
-msgid "Posted on %s"
+msgid "%s"
 msgstr ""
 
 #. translators: %s: post author.
